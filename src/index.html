@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
-    <header></header>
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+      </nav>
+    </header>
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">
@@ -23,22 +29,36 @@
           em prática boas ideias. Vamos conversar?
         </p>
         <div class="apresentacao__conteudo__links">
+          <h2 class="apresentacao__conteudo__links__subtitulo">
+            Acesse minhas redes:
+          </h2>
           <a
             class="apresentacao__link"
             href="https://www.instagram.com/gab.szz"
           >
+            <img
+              class="apresentacao__link__icon"
+              src="assets/instagram.png"
+              alt="Ícone do Instagram"
+            />
             Instagram
           </a>
           <a class="apresentacao__link" href="https://github.com/gab-szz">
+            <img
+              class="apresentacao__link__icon"
+              src="assets/github.png"
+              alt="Ícone do Github"
+            />
             Github
           </a>
         </div>
       </section>
       <img
         class="foto-perfil"
-        src="images/perfil.jpg"
+        src="assets/perfil.jpg"
         alt="Foto do Gabriel Silvio"
       />
     </main>
+    <footer class="rodape">Desenvolvido por Gabriel Silvio</footer>
   </body>
 </html>
