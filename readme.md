@@ -21,10 +21,17 @@ Ajudo pequenos negócios a colocarem em prática boas ideias através de soluç�
 
 ```
 /portfolio/
-├── index.html
-├── style.css
-└── images/
-    └── perfil.jpg
+├── .gitignore
+├── readme.md
+├── /src/
+    └── /assets/
+        ├── perfil.jpg
+        └── ...
+    └── /styles/
+        ├── global.css
+        └── ...
+    ├── index.html
+    └── about.html
 ```
 
 ## 🔗 Links Importantes
@@ -39,7 +46,7 @@ Para visualizar o projeto, basta:
 1. Clonar o repositório:
 
 ```bash
-git clone https://github.com/gab-szz/nome-do-repositorio.git
+git clone https://github.com/gab-szz/portifolio.git
 ```
 
 2. Abrir o arquivo `index.html` no navegador.
@@ -48,13 +55,6 @@ git clone https://github.com/gab-szz/nome-do-repositorio.git
 
 - HTML5
 - CSS3
-
-## 📅 Roadmap / Melhorias Futuras
-
-- [ ] Tornar a página responsiva para dispositivos móveis
-- [ ] Melhorar a estilização com animações e fontes personalizadas
-- [ ] Adicionar seção com projetos ou portfólio
-- [ ] Traduzir para inglês
 
 ## 📄 Licença
 
