@@ -13,7 +13,7 @@
 
 .apresentacao__conteudo__links__subtitulo {
   font-family: "Krona One", sans-serif;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 400;
   margin-bottom: 10px;
   color: var(--cor-texto);
@@ -29,7 +29,7 @@
   text-align: center;
   border: var(--cor-primaria) 2px solid;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   padding: 20px 0px;
   text-decoration: none;

@@ -36,7 +36,7 @@ body {
   text-decoration: none;
   color: var(--cor-primaria);
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 
@@ -64,14 +64,14 @@ body {
 .apresentacao__conteudo__titulo,
 .titulo-destaque {
   font-family: "Krona One", sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .apresentacao__conteudo__descricao {
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -79,7 +79,7 @@ body {
 .rodape {
   text-align: center;
   font-family: "Krona One", sans-serif;
-  font-size: 16px;
+  font-size: 1.5rem;
   color: #000000;
   background-color: var(--cor-primaria);
   padding: 20px;
