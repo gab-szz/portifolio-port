@@ -36,7 +36,7 @@ body {
   text-decoration: none;
   color: var(--cor-primaria);
   font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
@@ -45,17 +45,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.foto-perfil {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  margin-right: 20px;
+  gap: 82px;
 }
 
 .apresentacao__conteudo {
-  width: 515px;
+  width: 60%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -76,6 +70,13 @@ body {
   margin-bottom: 20px;
 }
 
+.foto-perfil {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
 .rodape {
   text-align: center;
   font-family: "Krona One", sans-serif;
@@ -83,4 +84,27 @@ body {
   color: #000000;
   background-color: var(--cor-primaria);
   padding: 20px;
+}
+
+@media (max-width: 1200px) {
+  .cabecalho__menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cabecalho {
+    padding: 10%;
+  }
+
+  .apresentacao {
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 5%;
+  }
+
+  .apresentacao__conteudo {
+    width: auto;
+    align-items: center;
+    text-align: center;
+  }
 }
